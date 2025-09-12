@@ -1,0 +1,29 @@
+@'
+# Node
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Env files
+.env
+backend/.env
+frontend/.env
+.env.local
+.env.*.local
+
+# Docker / compose local volumes
+db_data/
+url_shortener_db/
+*.log
+
+# Editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Optional: lock files (keep if you want)
+# package-lock.json
+'@ > .gitignore

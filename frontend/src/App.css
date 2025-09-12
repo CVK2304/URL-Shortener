@@ -1,0 +1,102 @@
+:root {
+  --bg: #f3f6fb;
+  --card: #ffffff;
+  --accent: #4f46e5;
+  --muted: #64748b;
+  --success: #16a34a;
+  --error: #ef4444;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  background: linear-gradient(180deg, #eef2ff 0%, #f8fafc 100%);
+  color: #0f172a;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: linear-gradient(180deg, #eef2ff 0%, #f8fafc 100%);
+}
+
+
+.card {
+  width: 400px;
+  background: var(--card);
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 18px;
+  color: var(--accent);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #e6eef6;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: var(--accent);
+}
+
+button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #3b35c0;
+}
+
+.message {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.message.error {
+  color: var(--error);
+}
+
+.message.success {
+  color: var(--success);
+}
+
+.result {
+  margin-top: 10px;
+}
+
+.result a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.result a:hover {
+  text-decoration: underline;
+}
