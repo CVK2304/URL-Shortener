@@ -22,6 +22,5 @@ This repository contains a URL Shortener project with:
 - Visit the shortened link → It will redirect to the original URL
 
 **API Endpoints**
-Method	   Endpoint	      Description
 POST ->	 /api/shorten ->	Create a short URL
 GET	 ->   /:code      ->  Redirect to original URL
