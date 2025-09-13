@@ -23,4 +23,6 @@ This repository contains a URL Shortener project with:
 
 **API Endpoints**
 POST ->	 /api/shorten ->	Create a short URL
+
+
 GET	 ->   /:code      ->  Redirect to original URL
